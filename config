@@ -1,0 +1,51 @@
+# ╔═══════════════════════════════════════════════════╗
+# ║         ghostty/config — Nordbones                ║
+# ╚═══════════════════════════════════════════════════╝
+
+# ── Font ──────────────────────────────────────────────
+font-size = 14
+# font-family = "JetBrainsMono Nerd Font"
+
+# ── Cursor ────────────────────────────────────────────
+cursor-style = block
+cursor-style-blink = false
+cursor-color = #88C0D0
+cursor-text = #2E3440
+
+# ── Selection ─────────────────────────────────────────
+selection-background = #434C5E
+selection-foreground = #D8DEE9
+
+# ── Window ────────────────────────────────────────────
+window-padding-x = 0
+window-padding-y = 0
+window-padding-balance = false
+window-padding-color = background
+
+# ── Nordbones — Core ──────────────────────────────────
+background = #2E3440
+foreground = #D8DEE9
+
+# ── Nordbones — 16-color Palette ──────────────────────
+# Normal (0–7): black red green yellow blue magenta cyan white
+palette = 0=#3B4252
+palette = 1=#BF616A
+palette = 2=#A3BE8C
+palette = 3=#EBCB8B
+palette = 4=#81A1C1
+palette = 5=#B48EAD
+palette = 6=#88C0D0
+palette = 7=#D8DEE9
+
+# Bright (8–15)
+palette = 8=#4C566A
+palette = 9=#BF616A
+palette = 10=#A3BE8C
+palette = 11=#EBCB8B
+palette = 12=#5E81AC
+palette = 13=#B48EAD
+palette = 14=#8FBCBB
+palette = 15=#ECEFF4
+
+# ── Shell integration ─────────────────────────────────
+shell-integration-features = cursor,sudo,title
