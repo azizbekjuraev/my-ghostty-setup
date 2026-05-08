@@ -1,5 +1,5 @@
 # ╔═══════════════════════════════════════════════════╗
-# ║         ghostty/config — Zenwritten               ║
+# ║         ghostty/config — Everforest Dark          ║
 # ╚═══════════════════════════════════════════════════╝
 # ── Font ──────────────────────────────────────────────
 font-size = 14
@@ -7,37 +7,35 @@ font-size = 14
 # ── Cursor ────────────────────────────────────────────
 cursor-style = block
 cursor-style-blink = false
-cursor-color = #89A39C
-cursor-text = #16161D
+cursor-color = #83C092
+cursor-text = #2D353B
 # ── Selection ─────────────────────────────────────────
-selection-background = #2E2E36
-selection-foreground = #BBBBBB
+selection-background = #3D484D
+selection-foreground = #D3C6AA
 # ── Window ────────────────────────────────────────────
 window-padding-x = 0
 window-padding-y = 0
 window-padding-balance = false
 window-padding-color = background
-# ── Zenwritten — Core ─────────────────────────────────
-background = #16161D
-foreground = #BBBBBB
-# ── Zenwritten — 16-color Palette ─────────────────────
-# Normal (0–7): black red green yellow blue magenta cyan white
-palette = 0=#252530
-palette = 1=#A8334C
-palette = 2=#4F6C31
-palette = 3=#944927
-palette = 4=#286486
-palette = 5=#88507D
-palette = 6=#3B8992
-palette = 7=#BBBBBB
-# Bright (8–15)
-palette = 8=#3E3E43
-palette = 9=#C57385
-palette = 10=#88B379
-palette = 11=#B07159
-palette = 12=#6099C0
-palette = 13=#BB8DAE
-palette = 14=#78AFAF
-palette = 15=#CCCCCC
+# ── Everforest — Core ─────────────────────────────────
+background = #2D353B
+foreground = #D3C6AA
+# ── Everforest — 16-color Palette ─────────────────────
+palette = 0=#374145
+palette = 1=#E67E80
+palette = 2=#A7C080
+palette = 3=#DBBC7F
+palette = 4=#7FBBB3
+palette = 5=#D699B6
+palette = 6=#83C092
+palette = 7=#D3C6AA
+palette = 8=#3D484D
+palette = 9=#E67E80
+palette = 10=#A7C080
+palette = 11=#DBBC7F
+palette = 12=#7FBBB3
+palette = 13=#D699B6
+palette = 14=#83C092
+palette = 15=#E6DFC8
 # ── Shell integration ─────────────────────────────────
 shell-integration-features = cursor,sudo,title
